@@ -17,7 +17,7 @@ from modules.load_state import load_state
 
 
 def run_cp_eval(gt_file_path, dt_file_path):
-    annotation_type = 'keypoinys'
+    annotation_type = 'keypoints'
     print('Running test for {} results.'.format(annotation_type))
 
     coco_gt = COCO(gt_file_path)
